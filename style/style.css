@@ -68,11 +68,16 @@ font-family: 'Roboto', sans-serif;
   width: 430px;
   margin-left: 45px;
 }
+.head_banner:hover img {
+  transform: scale(1.1);
+  transition: transform 2s ease-in-out;
+}
 
 /* -----------Main section style---------- */
 .main_sec {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 55px;
+  position: relative;
 }
 .main_sec > h2 {
   text-align: center;
@@ -129,6 +134,21 @@ font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #5e6366;
+}
+
+.see_more_text {
+  color: #e02c6dde;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.see_more_text > span {
+  margin-left: 15px;
 }
 
 /* ------------Footer section style----------- */
