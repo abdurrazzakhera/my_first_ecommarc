@@ -1,10 +1,11 @@
 /* -------------Google font------------- */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Manrope:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Manrope:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
 
 /* -------------Google font name
 font-family: 'Inter', sans-serif;
 font-family: 'Manrope', sans-serif;
-font-family: 'Poppins', sans-serif; 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
 ----------------*/
 
 /* -------------Besic common style------------- */
@@ -17,7 +18,6 @@ font-family: 'Poppins', sans-serif;
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid lightgray;
 }
 
 /* -------------Header Section Style------------- */
@@ -32,13 +32,11 @@ font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
 .head_banner_sec {
-  border: 1px solid;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
 .heading_desc {
-  border: 1px solid green;
 }
 .headin_desc_title {
   margin-top: 100px;
@@ -66,10 +64,69 @@ font-family: 'Poppins', sans-serif;
   color: white;
 }
 .head_banner {
-  border: 1px solid green;
 }
 .head_banner img {
   width: 430px;
-  border: 1px solid;
   margin-left: 45px;
+}
+
+/* -----------Main section style---------- */
+.main_sec {
+  margin-top: 20px;
+}
+.main_sec > h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 20px 0;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-self: center;
+}
+.singel_item {
+  padding: 20px 35px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px lightgray;
+}
+.item_image img {
+  border-radius: 5px;
+}
+.item_decs > h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #18191f;
+}
+.item_decs > h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+  margin: 8px 0;
+}
+.item_decs p {
+  font-family: "Inter", sans-serif;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #787885;
+}
+.item_rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.item_rating span {
+  margin-right: 20px;
+}
+.item_rating .fas {
+  color: orange;
+  font-size: 14px;
+}
+.item_rating p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #5e6366;
 }
