@@ -73,6 +73,7 @@ font-family: 'Roboto', sans-serif;
 /* -----------Main section style---------- */
 .main_sec {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .main_sec > h2 {
   text-align: center;
@@ -129,4 +130,39 @@ font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #5e6366;
+}
+
+/* ------------Footer section style----------- */
+.main_footer {
+  background-color: #0a0826;
+  text-align: center;
+  padding-top: 20px;
+}
+.foot_sec {
+  color: #fff;
+  width: 320px;
+  height: 140px;
+  margin: 20px auto;
+}
+.foot_sec h3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.foot_sec p {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #d9dbe1;
+  margin-bottom: 10px;
+}
+.social_icon a {
+  text-decoration: none;
+  color: white;
+}
+.social_icon .fab {
+  font-size: 32;
+  margin-right: 16px;
+  margin-bottom: 10px;
 }
